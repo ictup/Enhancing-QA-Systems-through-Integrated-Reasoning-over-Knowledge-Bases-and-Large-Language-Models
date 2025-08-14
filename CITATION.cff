@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite the thesis.
+title: Enhancing Question Answering Systems through Integrated Reasoning over Knowledge Bases and Large Language Models
+authors:
+  - family-names: Li
+    given-names: Haojie
+date-released: 2025-06-01
+version: 1.0.0
+type: software
+repository-code: https://github.com/ictup/Enhancing-QA-Systems-through-Integrated-Reasoning-over-Knowledge-Bases-and-Large-Language-Models
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: Li
+      given-names: Haojie
+  title: Enhancing Question Answering Systems through Integrated Reasoning over Knowledge Bases and Large Language Models
+  year: 2025
+  institution: Chalmers University of Technology

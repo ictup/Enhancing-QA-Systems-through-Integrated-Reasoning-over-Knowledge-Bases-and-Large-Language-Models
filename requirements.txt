@@ -1,0 +1,16 @@
+python-dotenv
+openai>=1.0.0
+langchain
+langchain-openai
+langchain-community
+pandas
+numpy
+scikit-learn
+neo4j
+pycocoevalcap
+Pillow
+gensim
+rank-bm25
+autogen-agentchat
+pyyaml
+tqdm
