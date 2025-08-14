@@ -21,7 +21,7 @@ A **research-grade**, reproducible system that fuses **structured knowledge grap
 ```mermaid
 flowchart TD
     Q["User Question"]
-    R1["BM25 Text Retrieval"]
+    R1["BM25 Text Retrieval,Embedding Retrieval"]
     R2["KG Traversal (Neo4j)"]
     M["MindMap: Structure Evidence"]
     T["Tree-of-Thoughts Search"]
