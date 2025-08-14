@@ -20,17 +20,30 @@ A **research-grade**, reproducible system that fuses **structured knowledge grap
 
 ```mermaid
 flowchart TD
-    Q[User Question] --> R1[BM25 Text Retrieval]
-    Q --> R2[KG Traversal (Neo4j)]
-    R1 --> M[MindMap: Structure Evidence]
+    Q["User Question"]
+    R1["BM25 Text Retrieval"]
+    R2["KG Traversal (Neo4j)"]
+    M["MindMap: Structure Evidence"]
+    T["Tree-of-Thoughts Search"]
+    V["Self-Consistency Voting"]
+    A1["Agent: Specialist"]
+    A2["Agent: Reviewer/Critic"]
+    A3["Agent: Coordinator/Synthesizer"]
+    C["Faithfulness Checks + Citations"]
+    O["Final Answer + Evidence"]
+
+    Q --> R1
+    Q --> R2
+    R1 --> M
     R2 --> M
-    M --> T[Tree-of-Thoughts Search]
-    T --> V[Self-Consistency Voting]
-    V --> A1[Agent: Specialist]
-    A1 --> A2[Agent: Reviewer/Critic]
-    A2 --> A3[Agent: Coordinator/Synthesizer]
-    A3 --> C[Faithfulness Checks + Citations]
-    C --> O[Final Answer + Evidence]
+    M --> T
+    T --> V
+    V --> A1
+    A1 --> A2
+    A2 --> A3
+    A3 --> C
+    C --> O
+
 ```
 
 **Reasoning recipe**
