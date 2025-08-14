@@ -22,7 +22,7 @@ A **research-grade**, reproducible system that fuses **structured knowledge grap
 flowchart TD
     %% ---------- Nodes ----------
     Q["User Question"]
-    R1["BM25 Retrieval","Embedding Retrieval"]
+    R1["BM25 Retrieval and Embedding Retrieval"]
     R2["KG Traversal (Neo4j)"]
     M["MindMap Evidence Builder"]
     P["Prompt Composer (KG + Text -> Structured Prompt)"]
